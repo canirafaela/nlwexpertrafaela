@@ -1,95 +1,96 @@
 const perguntas = [
     {
-        pergunta: "Qual é a maneira correta de declarar uma variável em JavaScript?",
-        respostas: [
-            "var myVar;",
-            "let myVar;",
-            "const myVar;",
-        ],
-        correta: 2
+      pergunta: "Qual time brasileiro ganhou a Copa Libertadores da América em 2019?",
+      respostas: [
+          "a) Flamengo",
+          "b) Palmeiras",
+          "c) Grêmio",
+      ],
+      correta: 0
     },
     {
-        pergunta: "Qual destes métodos é usado para adicionar um elemento ao final de um array?",
-        respostas: [
-            "push()",
-            "addToEnd()",
-            "append()",
-        ],
-        correta: 0
+      pergunta: "Quem foi o artilheiro do Campeonato Brasileiro de 2018?",
+      respostas: [
+          "a) Gabigol",
+          "b) Dudu",
+          "c) Ricardo Oliveira",
+      ],
+      correta: 0
     },
     {
-        pergunta: "O que é uma função de callback em JavaScript?",
-        respostas: [
-            "Uma função que é chamada após um determinado tempo de espera.",
-            "Uma função que é passada como argumento para outra função e é executada após algum evento.",
-            "Uma função que remove um elemento de um array.",
-        ],
-        correta: 1
+      pergunta: "Qual equipe brasileira conquistou a Copa do Brasil em 2016?",
+      respostas: [
+          "a) Cruzeiro",
+          "b) Palmeiras",
+          "c) Atlético Mineiro",
+      ],
+      correta: 2
     },
     {
-        pergunta: "Qual destes é um operador de comparação em JavaScript?",
-        respostas: [
-            "==+",
-            "===",
-            "=>=",
-        ],
-        correta: 1
+      pergunta: "Quem foi o técnico da seleção brasileira durante a Copa do Mundo de 2014?",
+      respostas: [
+          "a) Tite",
+          "b) Mano Menezes",
+          "c) Luiz Felipe Scolari",
+      ],
+      correta: 2
     },
     {
-        pergunta: "Qual é a maneira correta de escrever um comentário de linha em JavaScript?",
-        respostas: [
-            "// Este é um comentário de linha",
-            "# Este é um comentário de linha",
-            "/* Este é um comentário de linha */",
-        ],
-        correta: 0
+      pergunta: "Qual jogador brasileiro venceu o prêmio de Melhor do Mundo da FIFA em 2017?",
+      respostas: [
+          "a) Neymar",
+          "b) Cristiano Ronaldo",
+          "c) Lionel Messi",
+      ],
+      correta: 0
     },
     {
-        pergunta: "Qual método é usado para converter uma string em um número em JavaScript?",
-        respostas: [
-            "parseInt()",
-            "convertToString()",
-            "stringToNumber()",
-        ],
-        correta: 0
+      pergunta: "Qual time foi campeão da Copa do Brasil de 2020?",
+      respostas: [
+          "a) Palmeiras",
+          "b) Grêmio",
+          "c) Flamengo",
+      ],
+      correta: 0
     },
     {
-        pergunta: "O que o operador '&&' faz em JavaScript?",
-        respostas: [
-            "Ele faz uma operação de ou lógico.",
-            "Ele faz uma operação de e lógico.",
-            "Ele faz uma operação de negação.",
-        ],
-        correta: 1
+      pergunta: "Em qual estádio brasileiro foi disputada a final da Copa do Mundo de 2014?",
+      respostas: [
+          "a) Estádio do Maracanã",
+          "b) Arena Corinthians",
+          "c) Mineirão",
+      ],
+      correta: 1
     },
     {
-        pergunta: "Qual é a função do método 'map()' em JavaScript?",
-        respostas: [
-            "Ele filtra os elementos de um array.",
-            "Ele mapeia os elementos de um array para um novo array.",
-            "Ele concatena dois arrays.",
-        ],
-        correta: 1
+      pergunta: "Quem foi o artilheiro da Copa Libertadores da América de 2021?",
+      respostas: [
+          "a) Gabriel Barbosa",
+          "b) Hulk",
+          "c) Diego Souza",
+      ],
+      correta: 0
     },
     {
-        pergunta: "O que é uma expressão regular em JavaScript?",
-        respostas: [
-            "Uma forma de escrever comentários em múltiplas linhas.",
-            "Uma sequência de caracteres que define um padrão de busca.",
-            "Uma maneira de declarar uma função anônima.",
-        ],
-        correta: 1
+      pergunta: "Qual clube brasileiro venceu a Copa Sul-Americana em 2018?",
+      respostas: [
+          "a) Athletico Paranaense",
+          "b) Flamengo",
+          "c) Atlético Mineiro",
+      ],
+      correta: 0
     },
     {
-        pergunta: "Qual é a função do método 'toFixed()' em JavaScript?",
-        respostas: [
-            "Arredonda um número para o número inteiro mais próximo.",
-            "Formata um número com um número específico de casas decimais.",
-            "Converte uma string para um número.",
-        ],
-        correta: 1
-    }
-];
+      pergunta: "Qual foi o último time brasileiro a conquistar a Copa Libertadores da América antes de 2019?",
+      respostas: [
+          "a) Corinthians",
+          "b) Santos",
+          "c) Internacional",
+      ],
+      correta: 0
+    },
+  ];
+  
 
 const quiz = document.querySelector('#quiz')
 const template = document.querySelector('template')
